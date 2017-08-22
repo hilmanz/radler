@@ -1,0 +1,63 @@
+.pss_slides {
+	width:90%;
+	position:relative;
+	min-height:720px;
+	margin:0 auto;
+	text-align:left;
+	max-width:1440px;
+}
+.pss_slides ul {
+    height:100%;
+    list-style:none;
+    position:relative;
+    top:0;
+
+    /* css3 transition */
+    -webkit-transition:top ease-in 1.0s;
+    -moz-transition:top ease-in 1.0s;
+    -o-transition:top ease-in 1.0s;
+    -ms-transition:top ease-in 1.0s;
+    transition:top ease-in 1.0s; 
+}
+.pss_slides ul  li {
+    height:100%; width:100%; left:0; top:0;
+    opacity:0;
+    position:fixed !important;
+    text-align:center;
+	background-size:cover;
+
+    /* css3 transition */
+    -webkit-transition:opacity ease-in 1.0s;
+    -moz-transition:opacity ease-in 1.0s;
+    -o-transition:opacity ease-in 1.0s;
+    -ms-transition:opacity ease-in 1.0s;
+    transition:opacity ease-in 1.0s; 
+}
+.pss_slides ul li div{
+    /* css3 transition */
+    -webkit-transition:left ease-in 1.0s;
+    -moz-transition:left ease-in 1.0s;
+    -o-transition:left ease-in 1.0s;
+    -ms-transition:left ease-in 1.0s;
+    transition:left ease-in 1.0s; 
+}
+.step1 #step1{
+	background-image:url(../images/bg.jpg);
+	opacity:1;
+	z-index:10;
+}
+.step2 #step2{
+	background-image:url(../images/bg.jpg);
+	opacity:1;
+	z-index:10;
+}
+.step3 #step3{
+	background-image:url(../images/bg.jpg);
+	opacity:1;
+	z-index:10;
+}
+.step4 #step4{
+	background-image:url(../images/bg.jpg);
+	opacity:1;
+	z-index:10;
+}

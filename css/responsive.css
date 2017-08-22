@@ -1,0 +1,38 @@
+/* Responsive changes */
+@media (max-width: 1440px) {
+	.ice-container{
+		bottom:-120px;
+	}	
+	#comingsoonPage .ice-container{
+		bottom:-80px;
+	}
+	#comingsoonPage .center-title{
+		padding:100px 0 0 0;
+	}
+} 
+@media (max-width: 1100px) {	
+} 
+
+@media only screen and (max-width: 600px) {
+	.col-content,.col-sidebar,.col1,.col2,.col3,.col4,.col5,.col6{
+		float:none;
+		clear:both;
+		width:100%;
+	}
+	#comingsoonPage .ice-container,.ice-container{
+		bottom:0;
+		left:0; margin:0;
+	}
+	.center-title h3{
+		font-size:14px;
+	}
+	
+}
+@media only screen and (max-width: 979px) {
+	
+}
+@media (max-width: 500px) {
+    
+}
+@media (max-width: 480px) {
+}
